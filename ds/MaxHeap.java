@@ -19,7 +19,7 @@ public class MaxHeap<T extends Comparable<T>> {
   public boolean insert(T data) {
 
     if( size == MAX_SIZE ) {
-      System.out.println("HEAP FULL");
+      //System.out.println("HEAP FULL");
       return false;
     } 
     
